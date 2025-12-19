@@ -1,3 +1,5 @@
+import axios from 'axios';
+
 const API_URL = import.meta.env.PROD
     ? 'https://quickbite-backend-five.vercel.app/api'
     : 'http://localhost:5002/api';
