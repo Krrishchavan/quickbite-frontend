@@ -1,5 +1,5 @@
 const API_URL = import.meta.env.PROD
-    ? 'https://your-backend.vercel.app/api'  // TODO: Replace with your actual Vercel backend URL after deployment
+    ? 'https://quickbite-backend-five.vercel.app/api'
     : 'http://localhost:5002/api';
 
 const api = axios.create({
